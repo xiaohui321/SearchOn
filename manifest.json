@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "SearchOn",
+  "description": "This extension add a right click menu item to search on a specific website defined by user",
+  "version": "1.0",
+  "background": {"page": "background.html"},
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "search.png"
+  },
+  "icons": {
+    "16": "search.png"
+  }
+}
